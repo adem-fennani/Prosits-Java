@@ -6,5 +6,11 @@ public class Main {
 
         System.out.println(lion.toString());
         System.out.println(myZoo.displayZoo());
+
+        myZoo.addAnimal(lion);
+        System.out.println(myZoo.displayZoo());
+
+        myZoo.removeAnimal(lion);
+        System.out.println(myZoo.displayZoo());
     }
 }
